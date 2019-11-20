@@ -1,0 +1,230 @@
+html {
+    background-color: slategrey;
+}
+
+body {
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+    position: relative;
+    background-color: white;
+    padding: 30px;
+}
+
+.title {
+    align-content: center;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.topnav :link {
+    word-spacing: 80px;
+    letter-spacing: 2px;
+    font-variant-caps: all-small-caps;
+    font-family: 'CooperHewittSemibold', sans-serif;
+    color: darkslategray;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-decoration-line: none;
+    
+}
+
+.topnav a:hover {
+    color: grey;
+}
+
+.cover_image {
+    width: 100%;
+}
+
+h3 {
+    font-variant-caps: all-small-caps;
+    word-spacing: 2px;
+    font-family: 'CooperHewittMedium', sans-serif;
+    font-size: 22px;
+}
+
+h1 {
+    font-variant-caps: all-small-caps;
+    padding-top: 20px;
+    font-size: 40px;
+    word-spacing: 2px;
+    font-family: 'CooperHewittSemiBold', sans-serif;
+}
+
+.last_element01 {
+    padding-bottom: 80px;
+}
+
+.last_element02 {
+    padding-bottom: 90px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 22px;
+    word-spacing: 2px;
+    font-family: 'CooperHewittMedium', sans-serif;
+    padding-bottom: 80px;
+}
+
+li a:link{
+    padding-bottom: 20px;
+    text-decoration-line: none;
+    color: black;
+}
+
+li a:hover {
+    color: grey;
+}
+
+.last_element03 {
+    padding-bottom: 90px;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-variant-caps: all-small-caps;
+    word-spacing: 2px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'CooperHewittMedium', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+/*About*/
+
+.parallax01 {
+  background-image: url("../images/2017photo.jpg");
+  min-height: 600px;
+  width: 1080px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1280px)
+  .parallax01 {
+    background-attachment: scroll;
+  }
+
+.parallax02 {
+  background-image: url("../images/tourphoto.jpg");
+  min-height: 600px;
+  width: 1080px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1280px)
+  .parallax02 {
+    background-attachment: scroll;
+  }
+
+/*Albums*/
+.album {
+    padding-bottom: 60px;
+    margin-left: 250px;
+}
+
+.album:hover {
+    opacity: 0.9;
+}
+
+
+.album01 {
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.album01:hover {
+    opacity: 0.9;
+}
+
+.album02 {
+    padding: 20px;
+    width: 400px;
+    float: right;
+}
+
+.album02:hover {
+    opacity: 0.9;
+}
+
+.album03 {
+    padding: 20px;
+    width: 400px;
+}
+
+.album03:hover {
+    opacity: 0.9;
+}
+
+.album04 {
+    padding: 20px;
+    width: 400px;
+    float: right;
+}
+
+.album04:hover {
+    opacity: 0.9;
+}
+
+.tour_image {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    padding-bottom: 20px;
+}
+
+.svg-inline--fa {
+    color: antiquewhite;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.tours {
+    font-variant-caps: all-small-caps;
+    padding-top: 20px;
+    font-size: 40px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: 'CooperHewittBold', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: antiquewhite;
+}
+
+.text_on_image {
+    position: absolute;
+    padding-left: 220px;
+    padding-top: 230px;
+}
+
+
+
+
+
+
+
+ 
